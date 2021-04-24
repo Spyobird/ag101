@@ -43,6 +43,12 @@ enableGitInfo = true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "/about/"
+
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
