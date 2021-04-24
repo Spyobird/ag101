@@ -3,8 +3,8 @@ baseURL = "https://Spyobird.github.io/ag101"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "AG101"
-theme = "docdock"
-# themesdir = "../.."
+theme = "hugo-theme-docdock"
+themesdir = "../.."
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
@@ -43,11 +43,6 @@ enableGitInfo = true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[[menu.main]]
-name = "about"
-identifier = "about"
-weight = 200
-url = "/about/"
 
 
 [[menu.shortcuts]]
