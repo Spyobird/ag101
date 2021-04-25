@@ -16,12 +16,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
   name = "Docs"
   weight = 1
-  url = "docs"
+  url = "docs/"
 
 [[menu.main]]
   name = "About"
   weight = 2
-  url = "about"
+  url = "about/"
 
 [markup]
   [markup.goldmark]
@@ -48,7 +48,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 
-  repo = "https://github.com/spyobird/ag101"
+  repo = "https://github.com/spyobird/ag101/"
 
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
@@ -69,10 +69,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     name = "GitHub"
     iconLight = "images/GitHubMarkLight.svg"
     iconDark = "images/GitHubMarkDark.svg"
-    url = "https://github.com/spyobird/ag101"
+    url = "https://github.com/spyobird/ag101/"
 
   # attribution. Feel free to delete this
   [params.author]
     name = "Elliot Lim"
-    url = "https://github.com/spyobird"
+    url = "https://github.com/spyobird/"
 
