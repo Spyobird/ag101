@@ -1,11 +1,9 @@
 +++
-title = "AG 101"
+title = "Docs"
 weight = 1
 
 +++
 {{< block "grid-2" >}}
 {{< column >}}
 
-# Welcome
-
-Lorem Ipsum
+Hi there
