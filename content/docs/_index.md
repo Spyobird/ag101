@@ -1,5 +1,5 @@
 +++
-title: "Docs"
+title = "Docs"
 +++
 
 Hi there

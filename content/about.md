@@ -1,5 +1,5 @@
 +++
-title: "About"
+title = "About"
 +++
 
 This site was built using Hugo and is hosted over Github Pages.
