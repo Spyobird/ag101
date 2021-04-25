@@ -1,6 +1,5 @@
 +++
 title = "AG 101"
-weight = 1
 
 +++
 {{< block "grid-2" >}}
