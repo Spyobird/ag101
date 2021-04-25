@@ -1,9 +1,8 @@
 +++
-title = "AG 101"
+title = "Acoustic Guitar 101"
 +++
 {{< block "grid-2" >}}
 {{< column >}}
 
-# Welcome
+# Hello!
 
-Lorem Ipsum
