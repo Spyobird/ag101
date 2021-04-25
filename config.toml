@@ -73,5 +73,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # attribution. Feel free to delete this
   [params.author]
-    name = "Spyobird"
+    name = "Elliot Lim"
 
