@@ -1,6 +1,5 @@
 +++
-title = "Docs"
-weight = 20
+title: "Docs"
 +++
 
 Hi there

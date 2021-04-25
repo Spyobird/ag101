@@ -1,5 +1,6 @@
----
++++
 title: "About"
-date: 2021-03-27T01:12:18+08:00
----
++++
 
+This site was built using Hugo and is hosted over Github Pages.
+To find out more, you can check out my repository [here](https://github.com/spyobird/ag101).

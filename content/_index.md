@@ -1,5 +1,5 @@
 +++
-title = "Acoustic Guitar 101"
+title = "AG 101"
 +++
 {{< block "grid-2" >}}
 {{< column >}}
