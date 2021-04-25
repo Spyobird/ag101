@@ -1,6 +1,6 @@
 +++
 title = "About"
-weight = 1
+weight = 0
 +++
 
 This site was built using [Hugo](https://gohugo.io/) and is hosted via [Github Pages](https://pages.github.com/).
