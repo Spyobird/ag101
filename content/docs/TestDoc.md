@@ -1,6 +1,6 @@
 +++
 title = "Test"
-weight = 1
+weight = 9
 +++
 ## ipsum
 meme
