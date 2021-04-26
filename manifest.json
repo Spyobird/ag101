@@ -1,0 +1,15 @@
+{
+  "name": "AG 101",
+  "short_name": "AG 101",
+  "start_url": "/ag101/",
+  "scope": "/ag101/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/ag101/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
