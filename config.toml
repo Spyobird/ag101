@@ -1,78 +1,58 @@
-baseURL = "https://spyobird.github.io/ag101"
+# Meta Data for SEO
+
+## Homepage
 title = "AG 101"
-enableRobotsTXT = true
-# this example loads the theme as hugo module
-# comment out line below, and uncomment the line after it if you prefer to load the theme normally
-# theme = ["github.com/onweru/compose"] # edit this if you'ld rather use a fork of this repo
-theme = "compose"
-enableGitInfo = true
+titleSeparator = "-"
+titleAddition = "Modern Documentation Theme"
+description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+## Open Graph + Twitter Cards
+images = ["doks.png"]
+twitterSite = "henkverlinde"
+twitterCreator = "henkverlinde"
+facebookAuthor = "verlinde.henk"
+facebookPublisher = "verlinde.henk"
+ogLocale = "en_US"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+## JSON-LD
+schemaType = "Organization"
+schemaLogo = "logo-doks.png"
+schemaTwitter = "https://twitter.com/henkverlinde"
+schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaGitHub = "https://github.com/h-enk"
+schemaSection = "blog"
 
-#  menu items
-[[menu.main]]
-  name = "Docs"
-  weight = 1
-  url = "docs/"
+## Sitelinks Search Box
+siteLinksSearchBox = false
 
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+## Chrome Browser
+themeColor = "#fff"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.extensions]
-      typographer = false
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = false
-    style = "monokai"
-    tabWidth = 2
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
 
-# Everything below this are Site Params
+# Footer
+footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
-[params]
+# Alert
+alert = false
+alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
-  repo = "https://github.com/spyobird/ag101/"
+# Edit Page
+docsRepo = "https://github.com/h-enk/doks"
+editPage = false
 
-  time_format_blog = "Monday, January 02, 2006"
-  time_format_default = "January 2, 2006"
-  enableDarkMode = false # set to false to disable darkmode by default # user will still have the option to use dark mode
-
-  # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
-  codeMaxLines = 10
-
-  # disable showing line numbers by default. Switch to `true` if you'd rather have them on.
-  codeLineNumbers = false
-
-  # Site logo
-  [params.logo]
-    lightMode = "images/compose.svg"
-    darkMode = "images/compose-light.svg"
-
-  [params.source]
-    name = "GitHub"
-    iconLight = "images/GitHubMarkLight.svg"
-    iconDark = "images/GitHubMarkDark.svg"
-    url = "https://github.com/spyobird/ag101/"
-
-  # attribution. Feel free to delete this
-  [params.author]
-    name = "Elliot Lim"
-    url = "https://github.com/spyobird/"
-
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = false
+  breadCrumb = false
+  highLight = true
+  kaTex = false
